@@ -1,0 +1,22 @@
+<container name="root" flexDirection="column" alignItems="center" justifyContent="center" gap="10" padding="20" backgroundColor="#0a0a1ecc" borderRadius="12" width="300">
+  <text fontSize="18" fontWeight="bold" color="#00ccff">SETTINGS</text>
+  <container flexDirection="column" gap="8" width="240" marginTop="8">
+    <container flexDirection="row" alignItems="center" justifyContent="space-between">
+      <text fontSize="12" color="#aaccff">SFX Volume</text>
+      <container flexDirection="row" alignItems="center" gap="6">
+        <text name="btn-sfx-down" fontSize="13" color="#aaccff" backgroundColor="#223344" padding="3" paddingLeft="6" paddingRight="6" borderRadius="4" cursor="pointer">-</text>
+        <text name="sfx-val" fontSize="12" color="#ffcc44" width="44" textAlign="center">80%</text>
+        <text name="btn-sfx-up" fontSize="13" color="#aaccff" backgroundColor="#223344" padding="3" paddingLeft="6" paddingRight="6" borderRadius="4" cursor="pointer">+</text>
+      </container>
+    </container>
+    <container flexDirection="row" alignItems="center" justifyContent="space-between">
+      <text fontSize="12" color="#aaccff">Music Volume</text>
+      <container flexDirection="row" alignItems="center" gap="6">
+        <text name="btn-mus-down" fontSize="13" color="#aaccff" backgroundColor="#223344" padding="3" paddingLeft="6" paddingRight="6" borderRadius="4" cursor="pointer">-</text>
+        <text name="mus-val" fontSize="12" color="#ffcc44" width="44" textAlign="center">50%</text>
+        <text name="btn-mus-up" fontSize="13" color="#aaccff" backgroundColor="#223344" padding="3" paddingLeft="6" paddingRight="6" borderRadius="4" cursor="pointer">+</text>
+      </container>
+    </container>
+  </container>
+  <text name="btn-set-back" fontSize="12" color="#668899" marginTop="12" cursor="pointer">BACK</text>
+</container>

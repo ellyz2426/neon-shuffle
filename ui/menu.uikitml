@@ -1,0 +1,11 @@
+<container name="root" flexDirection="column" alignItems="center" justifyContent="center" gap="12" padding="20" backgroundColor="#0a0a1ecc" borderRadius="12" width="320">
+  <text name="title" fontSize="26" fontWeight="bold" color="#00ccff">NEON SHUFFLE</text>
+  <text fontSize="12" color="#446688">TABLE SHUFFLEBOARD</text>
+  <container flexDirection="column" gap="6" width="220" marginTop="12">
+    <text name="btn-play" fontSize="15" color="#00ff88" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">PLAY</text>
+    <text name="btn-tutorial" fontSize="15" color="#aaccff" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">HOW TO PLAY</text>
+    <text name="btn-settings" fontSize="15" color="#aaccff" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">SETTINGS</text>
+    <text name="btn-achievements" fontSize="15" color="#aaccff" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">ACHIEVEMENTS</text>
+  </container>
+  <text name="stats-line" fontSize="9" color="#446688" marginTop="10">Games: 0 | Won: 0 | Best: 0</text>
+</container>

@@ -1,0 +1,27 @@
+<container name="root" flexDirection="column" alignItems="center" gap="6" padding="16" backgroundColor="#0a0a1ecc" borderRadius="12" width="340">
+  <text fontSize="16" fontWeight="bold" color="#ffcc44">ACHIEVEMENTS</text>
+  <text name="ach-count" fontSize="10" color="#668899">0/20 Unlocked</text>
+  <container flexDirection="column" gap="3" width="310" marginTop="6" maxHeight="400" overflow="scroll">
+    <text name="ach-0" fontSize="9" color="#668899">[ ] First Slide - Score your first point</text>
+    <text name="ach-1" fontSize="9" color="#668899">[ ] Bullseye - Land a puck in Zone 4</text>
+    <text name="ach-2" fontSize="9" color="#668899">[ ] Full House - Score with all 4 pucks</text>
+    <text name="ach-3" fontSize="9" color="#668899">[ ] Knockoff - Knock opponent puck off table</text>
+    <text name="ach-4" fontSize="9" color="#668899">[ ] Sharpshooter - 3 Zone 4 hits in a round</text>
+    <text name="ach-5" fontSize="9" color="#668899">[ ] Victory - Win your first game</text>
+    <text name="ach-6" fontSize="9" color="#668899">[ ] Domination - Win by 15+ points</text>
+    <text name="ach-7" fontSize="9" color="#668899">[ ] Comeback King - Win after trailing</text>
+    <text name="ach-8" fontSize="9" color="#668899">[ ] Hot Streak x3 - Win 3 in a row</text>
+    <text name="ach-9" fontSize="9" color="#668899">[ ] Hot Streak x5 - Win 5 in a row</text>
+    <text name="ach-10" fontSize="9" color="#668899">[ ] Perfect Round - Max score in a round</text>
+    <text name="ach-11" fontSize="9" color="#668899">[ ] Score 100 - 100 career points</text>
+    <text name="ach-12" fontSize="9" color="#668899">[ ] Score 500 - 500 career points</text>
+    <text name="ach-13" fontSize="9" color="#668899">[ ] Veteran - Play 10 games</text>
+    <text name="ach-14" fontSize="9" color="#668899">[ ] Dedicated - Play 25 games</text>
+    <text name="ach-15" fontSize="9" color="#668899">[ ] Hard Hitter - Beat Hard AI</text>
+    <text name="ach-16" fontSize="9" color="#668899">[ ] Flawless - Win Hard, AI 0 pts</text>
+    <text name="ach-17" fontSize="9" color="#668899">[ ] Survivor 10 - 10 survival rounds</text>
+    <text name="ach-18" fontSize="9" color="#668899">[ ] Time Lord - 25+ in Time Trial</text>
+    <text name="ach-19" fontSize="9" color="#668899">[ ] Table Master - All modes played</text>
+  </container>
+  <text name="btn-ach-back" fontSize="11" color="#668899" marginTop="6" cursor="pointer">BACK</text>
+</container>

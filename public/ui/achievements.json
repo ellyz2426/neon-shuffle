@@ -1,0 +1,588 @@
+{
+  "element": {
+    "sourceTag": "container",
+    "type": "custom",
+    "children": [
+      {
+        "sourceTag": "text",
+        "type": "custom",
+        "children": [
+          "ACHIEVEMENTS"
+        ],
+        "properties": {
+          "fontsize": "16",
+          "fontweight": "bold",
+          "color": "#ffcc44"
+        },
+        "dataUid": "uid-2"
+      },
+      {
+        "sourceTag": "text",
+        "type": "custom",
+        "children": [
+          "0/20 Unlocked"
+        ],
+        "properties": {
+          "name": "ach-count",
+          "fontsize": "10",
+          "color": "#668899"
+        },
+        "dataUid": "uid-3"
+      },
+      {
+        "sourceTag": "container",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] First Slide - Score your first point"
+            ],
+            "properties": {
+              "name": "ach-0",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-5"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Bullseye - Land a puck in Zone 4"
+            ],
+            "properties": {
+              "name": "ach-1",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-6"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Full House - Score with all 4 pucks"
+            ],
+            "properties": {
+              "name": "ach-2",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-7"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Knockoff - Knock opponent puck off table"
+            ],
+            "properties": {
+              "name": "ach-3",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-8"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Sharpshooter - 3 Zone 4 hits in a round"
+            ],
+            "properties": {
+              "name": "ach-4",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-9"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Victory - Win your first game"
+            ],
+            "properties": {
+              "name": "ach-5",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-10"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Domination - Win by 15+ points"
+            ],
+            "properties": {
+              "name": "ach-6",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-11"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Comeback King - Win after trailing"
+            ],
+            "properties": {
+              "name": "ach-7",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-12"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Hot Streak x3 - Win 3 in a row"
+            ],
+            "properties": {
+              "name": "ach-8",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-13"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Hot Streak x5 - Win 5 in a row"
+            ],
+            "properties": {
+              "name": "ach-9",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-14"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Perfect Round - Max score in a round"
+            ],
+            "properties": {
+              "name": "ach-10",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-15"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Score 100 - 100 career points"
+            ],
+            "properties": {
+              "name": "ach-11",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-16"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Score 500 - 500 career points"
+            ],
+            "properties": {
+              "name": "ach-12",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-17"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Veteran - Play 10 games"
+            ],
+            "properties": {
+              "name": "ach-13",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-18"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Dedicated - Play 25 games"
+            ],
+            "properties": {
+              "name": "ach-14",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-19"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Hard Hitter - Beat Hard AI"
+            ],
+            "properties": {
+              "name": "ach-15",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-20"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Flawless - Win Hard, AI 0 pts"
+            ],
+            "properties": {
+              "name": "ach-16",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-21"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Survivor 10 - 10 survival rounds"
+            ],
+            "properties": {
+              "name": "ach-17",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-22"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Time Lord - 25+ in Time Trial"
+            ],
+            "properties": {
+              "name": "ach-18",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-23"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "[ ] Table Master - All modes played"
+            ],
+            "properties": {
+              "name": "ach-19",
+              "fontsize": "9",
+              "color": "#668899"
+            },
+            "dataUid": "uid-24"
+          }
+        ],
+        "properties": {
+          "flexdirection": "column",
+          "gap": "3",
+          "width": "310",
+          "margintop": "6",
+          "maxheight": "400",
+          "overflow": "scroll"
+        },
+        "dataUid": "uid-4"
+      },
+      {
+        "sourceTag": "text",
+        "type": "custom",
+        "children": [
+          "BACK"
+        ],
+        "properties": {
+          "name": "btn-ach-back",
+          "fontsize": "11",
+          "color": "#668899",
+          "margintop": "6",
+          "cursor": "pointer"
+        },
+        "dataUid": "uid-25"
+      }
+    ],
+    "properties": {
+      "name": "root",
+      "flexdirection": "column",
+      "alignitems": "center",
+      "gap": "6",
+      "padding": "16",
+      "backgroundcolor": "#0a0a1ecc",
+      "borderradius": "12",
+      "width": "340"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {},
+  "ranges": {
+    "uid-1": {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 26,
+        "column": 12
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 75
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 2,
+        "column": 2
+      },
+      "end": {
+        "line": 2,
+        "column": 75
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 3,
+        "column": 2
+      },
+      "end": {
+        "line": 24,
+        "column": 14
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 4,
+        "column": 4
+      },
+      "end": {
+        "line": 4,
+        "column": 99
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 5,
+        "column": 4
+      },
+      "end": {
+        "line": 5,
+        "column": 95
+      }
+    },
+    "uid-7": {
+      "start": {
+        "line": 6,
+        "column": 4
+      },
+      "end": {
+        "line": 6,
+        "column": 98
+      }
+    },
+    "uid-8": {
+      "start": {
+        "line": 7,
+        "column": 4
+      },
+      "end": {
+        "line": 7,
+        "column": 103
+      }
+    },
+    "uid-9": {
+      "start": {
+        "line": 8,
+        "column": 4
+      },
+      "end": {
+        "line": 8,
+        "column": 102
+      }
+    },
+    "uid-10": {
+      "start": {
+        "line": 9,
+        "column": 4
+      },
+      "end": {
+        "line": 9,
+        "column": 92
+      }
+    },
+    "uid-11": {
+      "start": {
+        "line": 10,
+        "column": 4
+      },
+      "end": {
+        "line": 10,
+        "column": 93
+      }
+    },
+    "uid-12": {
+      "start": {
+        "line": 11,
+        "column": 4
+      },
+      "end": {
+        "line": 11,
+        "column": 97
+      }
+    },
+    "uid-13": {
+      "start": {
+        "line": 12,
+        "column": 4
+      },
+      "end": {
+        "line": 12,
+        "column": 93
+      }
+    },
+    "uid-14": {
+      "start": {
+        "line": 13,
+        "column": 4
+      },
+      "end": {
+        "line": 13,
+        "column": 93
+      }
+    },
+    "uid-15": {
+      "start": {
+        "line": 14,
+        "column": 4
+      },
+      "end": {
+        "line": 14,
+        "column": 100
+      }
+    },
+    "uid-16": {
+      "start": {
+        "line": 15,
+        "column": 4
+      },
+      "end": {
+        "line": 15,
+        "column": 93
+      }
+    },
+    "uid-17": {
+      "start": {
+        "line": 16,
+        "column": 4
+      },
+      "end": {
+        "line": 16,
+        "column": 93
+      }
+    },
+    "uid-18": {
+      "start": {
+        "line": 17,
+        "column": 4
+      },
+      "end": {
+        "line": 17,
+        "column": 87
+      }
+    },
+    "uid-19": {
+      "start": {
+        "line": 18,
+        "column": 4
+      },
+      "end": {
+        "line": 18,
+        "column": 89
+      }
+    },
+    "uid-20": {
+      "start": {
+        "line": 19,
+        "column": 4
+      },
+      "end": {
+        "line": 19,
+        "column": 90
+      }
+    },
+    "uid-21": {
+      "start": {
+        "line": 20,
+        "column": 4
+      },
+      "end": {
+        "line": 20,
+        "column": 93
+      }
+    },
+    "uid-22": {
+      "start": {
+        "line": 21,
+        "column": 4
+      },
+      "end": {
+        "line": 21,
+        "column": 96
+      }
+    },
+    "uid-23": {
+      "start": {
+        "line": 22,
+        "column": 4
+      },
+      "end": {
+        "line": 22,
+        "column": 93
+      }
+    },
+    "uid-24": {
+      "start": {
+        "line": 23,
+        "column": 4
+      },
+      "end": {
+        "line": 23,
+        "column": 95
+      }
+    },
+    "uid-25": {
+      "start": {
+        "line": 25,
+        "column": 2
+      },
+      "end": {
+        "line": 25,
+        "column": 100
+      }
+    }
+  }
+}

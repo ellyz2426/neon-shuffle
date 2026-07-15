@@ -1,0 +1,9 @@
+<container name="root" flexDirection="column" alignItems="center" justifyContent="center" gap="10" padding="20" backgroundColor="#0a0a1ecc" borderRadius="12" width="320">
+  <text name="result-label" fontSize="24" fontWeight="bold" color="#00ff88">YOU WIN!</text>
+  <text name="final-score" fontSize="16" color="#aaccff">Score: 0 - 0</text>
+  <text name="detail-line" fontSize="12" color="#668899">Great game!</text>
+  <container flexDirection="column" gap="6" width="200" marginTop="12">
+    <text name="btn-rematch" fontSize="14" color="#00ff88" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">REMATCH</text>
+    <text name="btn-go-menu" fontSize="14" color="#aaccff" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">MAIN MENU</text>
+  </container>
+</container>

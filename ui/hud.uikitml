@@ -1,0 +1,21 @@
+<container name="root" flexDirection="column" alignItems="center" gap="6" padding="12" backgroundColor="#0a0a1eaa" borderRadius="8" width="280">
+  <container flexDirection="row" justifyContent="space-between" width="260" alignItems="center">
+    <container flexDirection="column" alignItems="center">
+      <text fontSize="9" color="#00ccff">YOU</text>
+      <text name="player-score" fontSize="22" fontWeight="bold" color="#00ccff">0</text>
+    </container>
+    <container flexDirection="column" alignItems="center">
+      <text name="mode-label" fontSize="9" color="#668899">CLASSIC</text>
+      <text name="round-label" fontSize="11" color="#aaccff">Round 1/4</text>
+    </container>
+    <container flexDirection="column" alignItems="center">
+      <text fontSize="9" color="#ff3388">OPPONENT</text>
+      <text name="ai-score" fontSize="22" fontWeight="bold" color="#ff3388">0</text>
+    </container>
+  </container>
+  <container flexDirection="row" justifyContent="space-between" width="260">
+    <text name="turn-label" fontSize="11" color="#00ff88">YOUR TURN</text>
+    <text name="pucks-left" fontSize="11" color="#aaccff">Pucks: 4</text>
+  </container>
+  <text fontSize="8" color="#445566">SPACE / Trigger = Charge | Release = Slide | A/D = Aim</text>
+</container>

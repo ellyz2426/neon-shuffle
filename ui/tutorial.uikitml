@@ -1,0 +1,21 @@
+<container name="root" flexDirection="column" alignItems="center" gap="8" padding="18" backgroundColor="#0a0a1ecc" borderRadius="12" width="320">
+  <text fontSize="18" fontWeight="bold" color="#00ccff">HOW TO PLAY</text>
+  <container flexDirection="column" gap="6" width="280" marginTop="6">
+    <text fontSize="11" color="#aaccff" fontWeight="bold">OBJECTIVE</text>
+    <text fontSize="10" color="#8899aa">Slide pucks down the shuffleboard table into scoring zones. Score more points than your opponent!</text>
+    <text fontSize="11" color="#aaccff" fontWeight="bold" marginTop="4">CONTROLS</text>
+    <text fontSize="10" color="#8899aa">A/D or Thumbstick: Aim left/right</text>
+    <text fontSize="10" color="#8899aa">SPACE or Trigger: Hold to charge power</text>
+    <text fontSize="10" color="#8899aa">Release: Slide the puck</text>
+    <text fontSize="10" color="#8899aa">ESC: Pause</text>
+    <text fontSize="11" color="#aaccff" fontWeight="bold" marginTop="4">SCORING ZONES</text>
+    <text fontSize="10" color="#2244aa">Zone 1 (nearest): 1 point</text>
+    <text fontSize="10" color="#22aa44">Zone 2: 2 points</text>
+    <text fontSize="10" color="#aaaa22">Zone 3: 3 points</text>
+    <text fontSize="10" color="#cc4422">Zone 4 (farthest): 4 points</text>
+    <text fontSize="10" color="#8899aa">Pucks off the table = 0 points</text>
+    <text fontSize="11" color="#aaccff" fontWeight="bold" marginTop="4">STRATEGY</text>
+    <text fontSize="10" color="#8899aa">Knock opponent pucks off the table! Position yours in high-scoring zones while disrupting theirs.</text>
+  </container>
+  <text name="btn-tut-back" fontSize="11" color="#668899" marginTop="8" cursor="pointer">BACK</text>
+</container>

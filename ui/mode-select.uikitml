@@ -1,0 +1,15 @@
+<container name="root" flexDirection="column" alignItems="center" justifyContent="center" gap="10" padding="20" backgroundColor="#0a0a1ecc" borderRadius="12" width="320">
+  <text fontSize="20" fontWeight="bold" color="#00ccff">SELECT MODE</text>
+  <container flexDirection="column" gap="6" width="220" marginTop="8">
+    <text name="btn-classic" fontSize="14" color="#00ff88" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">CLASSIC (4 Rounds vs AI)</text>
+    <text name="btn-target" fontSize="14" color="#ffaa44" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">TARGET PRACTICE (Solo)</text>
+    <text name="btn-survival" fontSize="14" color="#ff4488" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">SURVIVAL (Endless)</text>
+    <text name="btn-timetrial" fontSize="14" color="#aa88ff" backgroundColor="#112233" padding="8" borderRadius="6" textAlign="center" cursor="pointer">TIME TRIAL (60s)</text>
+  </container>
+  <container flexDirection="row" alignItems="center" gap="8" marginTop="10">
+    <text name="btn-diff-down" fontSize="14" color="#aaccff" backgroundColor="#223344" padding="4" paddingLeft="8" paddingRight="8" borderRadius="4" cursor="pointer">&lt;</text>
+    <text name="diff-label" fontSize="13" color="#ffcc44" width="80" textAlign="center">NORMAL</text>
+    <text name="btn-diff-up" fontSize="14" color="#aaccff" backgroundColor="#223344" padding="4" paddingLeft="8" paddingRight="8" borderRadius="4" cursor="pointer">&gt;</text>
+  </container>
+  <text name="btn-mode-back" fontSize="12" color="#668899" marginTop="10" cursor="pointer">BACK</text>
+</container>
